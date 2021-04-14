@@ -20,7 +20,10 @@ $ gem -v
 $ gem install jekyll bundler
 $ jekyll new jekyll-github-pages
 $ cd jekyll-github-pages
-$ bundle exec jekyll jekyll-github-pages
+
+$ bundle exec jekyll serve
+// Or
+$ bundle exec jekyll s
 {% endhighlight %}
 <!-- // code -->
 
